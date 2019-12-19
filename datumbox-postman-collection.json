@@ -1,0 +1,461 @@
+{
+    "id": "0d88b567acf0941ea72b0dc4031e37be",
+    "name": "DatumBox",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "546c26cf55f0aaff24516ce9528eb021",
+            "name": "Classifies the Document as adult or noadult",
+            "url": "httpsapi.datumbox.com1.0\/\/AdultContentDetection.json",
+            "description": "The Adult Content Detection function classifies the documents as adult or noadult based on their context. It can be used to detect whether a document contains content unsuitable for minors.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "089dd4cc9e5562aa9967ad9da19b480f",
+            "name": "Classifies the Document as commercial or nocommercial",
+            "url": "httpsapi.datumbox.com1.0\/\/CommercialDetection.json",
+            "description": "The Commercial Detection function labels the documents as commercial or non-commercial based on their keywords and expressions. It can be used to detect whether a website is commercial or not.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "da06c4cfc0fc02db515b6cf3face6d2b",
+            "name": "Estimates the similarity between 2 Documents",
+            "url": "httpsapi.datumbox.com1.0\/\/DocumentSimilarity.json",
+            "description": "The Document Similarity function estimates the degree of similarity between two documents. It can be used to detect duplicate webpages or detect plagiarism.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "original",
+                    "description": "The first text. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "copy",
+                    "description": "The second text. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "5b2fc7673042f019343087f2dac00da3",
+            "name": "Classifies the Document as educational or noeducational",
+            "url": "httpsapi.datumbox.com1.0\/\/EducationalDetection.json",
+            "description": "The Educational Detection function classifies the documents as educational or non-educational based on their context. It can be used to detect whether a website is educational or not.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "2c601507b526c37e196ba59c9d000c80",
+            "name": "Gender Detection Service",
+            "url": "httpsapi.datumbox.com1.0\/\/GenderDetection.json",
+            "description": "The Gender Detection function identifies if a particular document is written-by or targets-to a man or a woman based on the context, the words and the idioms found in the text.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "4759c1571b12d2073352b71531001e41",
+            "name": "Extracts the Keywords of the Document",
+            "url": "httpsapi.datumbox.com1.0\/\/KeywordExtraction.json",
+            "description": "The Keyword Extraction function enables you to extract from an arbitrary document all the keywords and word-combinations along with their occurrences in the text.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "n",
+                    "description": "The number of keyword combinations (n-grams) that you wish to extract.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "51f02e81960d8a22ae8e43f6d1d24677",
+            "name": "Identifies the Language of the Document",
+            "url": "httpsapi.datumbox.com1.0\/\/LanguageDetection.json",
+            "description": "The Language Detection function identifies the natural language of the given document based on its words and context. This classifier is able to detect 96 different languages.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "1d5dcab2915e722fcbdebdc81d155c29",
+            "name": "Evaluates the Readability of the Document",
+            "url": "httpsapi.datumbox.com1.0\/\/ReadabilityAssessment.json",
+            "description": "The Readability Assessment function determines the degree of readability of a document based on its terms and idioms. The texts are classified as basic, intermediate and advanced depending their difficulty.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "3e66c9d372adc091a0b8b3112a2ce6a9",
+            "name": "Identifies the Sentiment of the Document",
+            "url": "httpsapi.datumbox.com1.0\/\/SentimentAnalysis.json",
+            "description": "The Sentiment Analysis function classifies documents as positive, negative or neutral (lack of sentiment) depending on whether they express a positive, negative or neutral opinion.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "4cd7396a5eb1bfb47e802c9e15a4a5a3",
+            "name": "Classifies the Document as spam or nospam",
+            "url": "httpsapi.datumbox.com1.0\/\/SpamDetection.json",
+            "description": "The Spam Detection function labels documents as spam or nospam by taking into account their context. It can be used to filter out spam emails and comments.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "37496e0fbe0a5c2c8fd6e703eb4dbbc0",
+            "name": "Classifies Document as Subjective or Objective",
+            "url": "httpsapi.datumbox.com1.0\/\/SubjectivityAnalysis.json",
+            "description": "The Subjectivity Analysis function categorizes documents as subjective or objective based on their writing style. Texts that express personal opinions are labeled as subjective and the others as objective.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "81a394770ebe2ef0ba63b60ea3074ff5",
+            "name": "Extracts the clear text from Webpage",
+            "url": "httpsapi.datumbox.com1.0\/\/TextExtraction.json",
+            "description": "The Text Extraction function enables you to extract the important information from a given webpage. Extracting the clear text of the documents is an important step before any other analysis.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "6b182d096adc297a61e88be796898f7a",
+            "name": "Identifies the Topic of the Document",
+            "url": "httpsapi.datumbox.com1.0\/\/TopicClassification.json",
+            "description": "The Topic Classification function assigns documents in 12 thematic categories based on their keywords, idioms and jargon. It can be used to identify the topic of the texts.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        },
+        {
+            "id": "3a26b93c6d0e797e76c3db64d3ad267e",
+            "name": "Identifies the Sentiment of Twitter Messages",
+            "url": "httpsapi.datumbox.com1.0\/\/TwitterSentimentAnalysis.json",
+            "description": "The Twitter Sentiment Analysis function allows you to perform Sentiment Analysis on Twitter. It classifies the tweets as positive, negative or neutral depending on their context.",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "post",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "text",
+                    "description": "The text that you want to analyze. It should not contain HTML tags.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "rawModeData": ""
+        }
+    ]
+}
