@@ -1,0 +1,16 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "v",
+        "title": "Datumbox Metrics API",
+        "description": "A document, machine learning metrics API.",
+        "termsOfService": "http:\/\/www.datumbox.com\/terms-of-use\/"
+    },
+    "servers": [
+        "httpsapi.datumbox.com\/"
+    ],
+    "paths": [],
+    "components": {
+        "schemas": []
+    }
+}
