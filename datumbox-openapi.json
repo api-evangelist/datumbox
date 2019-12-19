@@ -1,0 +1,237 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "DatumBox",
+        "description": "Datumbox offers a Machine Learning platform composed of 14 classifiers and Natural Language processing functions. Functions include sentiment analysis, topic classification, readability assessment, language detection, and much more.",
+        "termsOfService": ""
+    },
+    "servers": [
+        "httpsapi.datumbox.com1.0\/"
+    ],
+    "paths": {
+        "\/AdultContentDetection.json": {
+            "post": {
+                "summary": "Classifies the Document as adult or noadult",
+                "description": "The Adult Content Detection function classifies the documents as adult or noadult based on their context. It can be used to detect whether a document contains content unsuitable for minors.",
+                "operationId": "AdultContentDetection",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/CommercialDetection.json": {
+            "post": {
+                "summary": "Classifies the Document as commercial or nocommercial",
+                "description": "The Commercial Detection function labels the documents as commercial or non-commercial based on their keywords and expressions. It can be used to detect whether a website is commercial or not.",
+                "operationId": "CommercialDetection",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/DocumentSimilarity.json": {
+            "post": {
+                "summary": "Estimates the similarity between 2 Documents",
+                "description": "The Document Similarity function estimates the degree of similarity between two documents. It can be used to detect duplicate webpages or detect plagiarism.",
+                "operationId": "DocumentSimilarity",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "original",
+                        "in": "formData",
+                        "description": "The first text. It should not contain HTML tags."
+                    },
+                    {
+                        "name": "copy",
+                        "in": "formData",
+                        "description": "The second text. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/EducationalDetection.json": {
+            "post": {
+                "summary": "Classifies the Document as educational or noeducational",
+                "description": "The Educational Detection function classifies the documents as educational or non-educational based on their context. It can be used to detect whether a website is educational or not.",
+                "operationId": "EducationalDetection",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/GenderDetection.json": {
+            "post": {
+                "summary": "Gender Detection Service",
+                "description": "The Gender Detection function identifies if a particular document is written-by or targets-to a man or a woman based on the context, the words and the idioms found in the text.",
+                "operationId": "GenderDetection",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/KeywordExtraction.json": {
+            "post": {
+                "summary": "Extracts the Keywords of the Document",
+                "description": "The Keyword Extraction function enables you to extract from an arbitrary document all the keywords and word-combinations along with their occurrences in the text.",
+                "operationId": "KeywordExtraction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "n",
+                        "in": "formData",
+                        "description": "The number of keyword combinations (n-grams) that you wish to extract."
+                    },
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/LanguageDetection.json": {
+            "post": {
+                "summary": "Identifies the Language of the Document",
+                "description": "The Language Detection function identifies the natural language of the given document based on its words and context. This classifier is able to detect 96 different languages.",
+                "operationId": "LanguageDetection",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/ReadabilityAssessment.json": {
+            "post": {
+                "summary": "Evaluates the Readability of the Document",
+                "description": "The Readability Assessment function determines the degree of readability of a document based on its terms and idioms. The texts are classified as basic, intermediate and advanced depending their difficulty.",
+                "operationId": "ReadabilityAssessment",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/SentimentAnalysis.json": {
+            "post": {
+                "summary": "Identifies the Sentiment of the Document",
+                "description": "The Sentiment Analysis function classifies documents as positive, negative or neutral (lack of sentiment) depending on whether they express a positive, negative or neutral opinion.",
+                "operationId": "SentimentAnalysis",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/SpamDetection.json": {
+            "post": {
+                "summary": "Classifies the Document as spam or nospam",
+                "description": "The Spam Detection function labels documents as spam or nospam by taking into account their context. It can be used to filter out spam emails and comments.",
+                "operationId": "SpamDetection",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/SubjectivityAnalysis.json": {
+            "post": {
+                "summary": "Classifies Document as Subjective or Objective",
+                "description": "The Subjectivity Analysis function categorizes documents as subjective or objective based on their writing style. Texts that express personal opinions are labeled as subjective and the others as objective.",
+                "operationId": "SubjectivityAnalysis",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/TextExtraction.json": {
+            "post": {
+                "summary": "Extracts the clear text from Webpage",
+                "description": "The Text Extraction function enables you to extract the important information from a given webpage. Extracting the clear text of the documents is an important step before any other analysis.",
+                "operationId": "TextExtraction",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/TopicClassification.json": {
+            "post": {
+                "summary": "Identifies the Topic of the Document",
+                "description": "The Topic Classification function assigns documents in 12 thematic categories based on their keywords, idioms and jargon. It can be used to identify the topic of the texts.",
+                "operationId": "TopicClassification",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        },
+        "\/TwitterSentimentAnalysis.json": {
+            "post": {
+                "summary": "Identifies the Sentiment of Twitter Messages",
+                "description": "The Twitter Sentiment Analysis function allows you to perform Sentiment Analysis on Twitter. It classifies the tweets as positive, negative or neutral depending on their context.",
+                "operationId": "TwitterSentimentAnalysis",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "text",
+                        "in": "formData",
+                        "description": "The text that you want to analyze. It should not contain HTML tags."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": []
+    }
+}
