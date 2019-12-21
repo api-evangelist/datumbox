@@ -1,5 +1,5 @@
 {
-    "id": "0d88b567acf0941ea72b0dc4031e37be",
+    "id": "aa76195f52f5a06deefe7b9dccd005d3",
     "name": "DatumBox",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "546c26cf55f0aaff24516ce9528eb021",
+            "id": "a589a9edd510f6e2284c6bb1018d6652",
             "name": "Classifies the Document as adult or noadult",
             "url": "httpsapi.datumbox.com1.0\/\/AdultContentDetection.json",
             "description": "The Adult Content Detection function classifies the documents as adult or noadult based on their context. It can be used to detect whether a document contains content unsuitable for minors.",
@@ -37,11 +37,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "089dd4cc9e5562aa9967ad9da19b480f",
+            "id": "f7787f085c9184a7035edf1dface510b",
             "name": "Classifies the Document as commercial or nocommercial",
             "url": "httpsapi.datumbox.com1.0\/\/CommercialDetection.json",
             "description": "The Commercial Detection function labels the documents as commercial or non-commercial based on their keywords and expressions. It can be used to detect whether a website is commercial or not.",
@@ -68,11 +68,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "da06c4cfc0fc02db515b6cf3face6d2b",
+            "id": "45b4b07a47eac96d57d58f82dbb29875",
             "name": "Estimates the similarity between 2 Documents",
             "url": "httpsapi.datumbox.com1.0\/\/DocumentSimilarity.json",
             "description": "The Document Similarity function estimates the degree of similarity between two documents. It can be used to detect duplicate webpages or detect plagiarism.",
@@ -106,11 +106,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "5b2fc7673042f019343087f2dac00da3",
+            "id": "929ca379ebe6b6a37b0ff2c70025363b",
             "name": "Classifies the Document as educational or noeducational",
             "url": "httpsapi.datumbox.com1.0\/\/EducationalDetection.json",
             "description": "The Educational Detection function classifies the documents as educational or non-educational based on their context. It can be used to detect whether a website is educational or not.",
@@ -137,11 +137,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "2c601507b526c37e196ba59c9d000c80",
+            "id": "7bc156662eaf87a6b189776d58f6f9e9",
             "name": "Gender Detection Service",
             "url": "httpsapi.datumbox.com1.0\/\/GenderDetection.json",
             "description": "The Gender Detection function identifies if a particular document is written-by or targets-to a man or a woman based on the context, the words and the idioms found in the text.",
@@ -168,11 +168,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "4759c1571b12d2073352b71531001e41",
+            "id": "255619629bfb92705e24c6ce3fb7b164",
             "name": "Extracts the Keywords of the Document",
             "url": "httpsapi.datumbox.com1.0\/\/KeywordExtraction.json",
             "description": "The Keyword Extraction function enables you to extract from an arbitrary document all the keywords and word-combinations along with their occurrences in the text.",
@@ -206,11 +206,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "51f02e81960d8a22ae8e43f6d1d24677",
+            "id": "b106a07989674a14b5ee249c9d3aa175",
             "name": "Identifies the Language of the Document",
             "url": "httpsapi.datumbox.com1.0\/\/LanguageDetection.json",
             "description": "The Language Detection function identifies the natural language of the given document based on its words and context. This classifier is able to detect 96 different languages.",
@@ -237,11 +237,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "1d5dcab2915e722fcbdebdc81d155c29",
+            "id": "f4879327c28b679247e740995b9bf80e",
             "name": "Evaluates the Readability of the Document",
             "url": "httpsapi.datumbox.com1.0\/\/ReadabilityAssessment.json",
             "description": "The Readability Assessment function determines the degree of readability of a document based on its terms and idioms. The texts are classified as basic, intermediate and advanced depending their difficulty.",
@@ -268,11 +268,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "3e66c9d372adc091a0b8b3112a2ce6a9",
+            "id": "6aa0ad046024349d0725a40a874dcbcc",
             "name": "Identifies the Sentiment of the Document",
             "url": "httpsapi.datumbox.com1.0\/\/SentimentAnalysis.json",
             "description": "The Sentiment Analysis function classifies documents as positive, negative or neutral (lack of sentiment) depending on whether they express a positive, negative or neutral opinion.",
@@ -299,11 +299,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "4cd7396a5eb1bfb47e802c9e15a4a5a3",
+            "id": "d7c325e2b237c510aa4e7d08db377807",
             "name": "Classifies the Document as spam or nospam",
             "url": "httpsapi.datumbox.com1.0\/\/SpamDetection.json",
             "description": "The Spam Detection function labels documents as spam or nospam by taking into account their context. It can be used to filter out spam emails and comments.",
@@ -330,11 +330,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "37496e0fbe0a5c2c8fd6e703eb4dbbc0",
+            "id": "b59a4abf4618c3a5e0874347c4c80e05",
             "name": "Classifies Document as Subjective or Objective",
             "url": "httpsapi.datumbox.com1.0\/\/SubjectivityAnalysis.json",
             "description": "The Subjectivity Analysis function categorizes documents as subjective or objective based on their writing style. Texts that express personal opinions are labeled as subjective and the others as objective.",
@@ -361,11 +361,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "81a394770ebe2ef0ba63b60ea3074ff5",
+            "id": "86c94ef0a1102a697962fb93425c88f9",
             "name": "Extracts the clear text from Webpage",
             "url": "httpsapi.datumbox.com1.0\/\/TextExtraction.json",
             "description": "The Text Extraction function enables you to extract the important information from a given webpage. Extracting the clear text of the documents is an important step before any other analysis.",
@@ -392,11 +392,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "6b182d096adc297a61e88be796898f7a",
+            "id": "25387b38e3fc72577f5b608545c83e5b",
             "name": "Identifies the Topic of the Document",
             "url": "httpsapi.datumbox.com1.0\/\/TopicClassification.json",
             "description": "The Topic Classification function assigns documents in 12 thematic categories based on their keywords, idioms and jargon. It can be used to identify the topic of the texts.",
@@ -423,11 +423,11 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         },
         {
-            "id": "3a26b93c6d0e797e76c3db64d3ad267e",
+            "id": "7a9233cfef9aa254db0986ef1f174e39",
             "name": "Identifies the Sentiment of Twitter Messages",
             "url": "httpsapi.datumbox.com1.0\/\/TwitterSentimentAnalysis.json",
             "description": "The Twitter Sentiment Analysis function allows you to perform Sentiment Analysis on Twitter. It classifies the tweets as positive, negative or neutral depending on their context.",
@@ -454,7 +454,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "0d88b567acf0941ea72b0dc4031e37be",
+            "collectionId": "aa76195f52f5a06deefe7b9dccd005d3",
             "rawModeData": ""
         }
     ]
