@@ -12,8 +12,8 @@
         "relative data",
         "service api"
     ],
-    "created": "2019-12-19",
-    "modified": "2019-12-19",
+    "created": "2019-12-21",
+    "modified": "2019-12-21",
     "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/apis.json",
     "specificationVersion": "0.14",
     "apis": [
@@ -31,11 +31,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/documentclassification-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/documentclassification-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/documentclassification-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/documentclassification-postman-collection.json"
                 }
             ]
         },
@@ -53,11 +53,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/datumbox-information-retrieval-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/datumbox-information-retrieval-api-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/datumbox-information-retrieval-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/datumbox-information-retrieval-api-postman-collection.json"
                 }
             ]
         },
@@ -75,11 +75,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/datumbox-metrics-api-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/datumbox-metrics-api-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/datumbox-metrics-api-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/datumbox-metrics-api-postman-collection.json"
                 }
             ]
         },
@@ -97,11 +97,11 @@
                 },
                 {
                     "type": "x-openapi",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/datumbox-openapi.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/datumbox-openapi.json"
                 },
                 {
                     "type": "x-postman-collecction",
-                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/datumbox-postman-collection.json"
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/datumbox\/master\/datumbox-postman-collection.json"
                 }
             ]
         }
@@ -111,6 +111,10 @@
         {
             "type": "API.json - Authoritative",
             "url": "http:\/\/apis.io\/apisdef\/legacy\/datumbox.json"
+        },
+        {
+            "type": "APIs.json",
+            "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/apis.json"
         },
         {
             "type": "Blog",
